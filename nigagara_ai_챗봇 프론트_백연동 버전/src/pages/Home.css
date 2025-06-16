@@ -1,0 +1,37 @@
+/* Header.css */
+
+.app-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #3d9beb;
+    padding: 1rem 2rem;
+    color: white;
+    height: 60px; /* 모든 페이지에서 동일한 높이 유지 */
+    position: relative;
+    z-index: 1000;
+}
+
+.app-logo {
+    margin: 0;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.app-nav ul {
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+    margin: 0;
+    padding: 0;
+}
+
+.app-nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.app-nav a:hover {
+    text-decoration: underline;
+}

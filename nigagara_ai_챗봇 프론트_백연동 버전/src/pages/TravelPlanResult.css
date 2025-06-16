@@ -1,0 +1,42 @@
+/* TravelPlanResult.css */
+
+.travel-plan-container {
+    width: 60%;
+    margin: 2rem auto;
+    font-family: 'Arial', sans-serif;
+    border: 1px solid #ddd;
+    padding: 1.5rem;
+    background-color: #fafafa;
+    border-radius: 6px;
+}
+
+.travel-plan-container h2 {
+    margin-bottom: 1rem;
+}
+
+.travel-plan-container p {
+    margin: 0.5rem 0;
+}
+
+.travel-plan-container ul {
+    margin-top: 1rem;
+    padding-left: 1.2rem;
+}
+
+.travel-plan-container li {
+    margin-bottom: 0.5rem;
+}
+
+.travel-plan-container button {
+    margin-top: 1rem;
+    padding: 0.5rem 1rem;
+    background-color: #3d9beb;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.travel-plan-container button:hover {
+    background-color: #2c8bd7;
+}

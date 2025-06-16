@@ -1,0 +1,19 @@
+/* MapView.css */
+
+.map-container {
+    font-family: 'Arial', sans-serif;
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+
+.map-container h2 {
+    margin: 1rem 0;
+}
+
+#map {
+    width: 80%;
+    height: 70vh;
+    margin: 0 auto;
+    border: 1px solid #ddd;
+}
